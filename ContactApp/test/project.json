@@ -1,0 +1,52 @@
+{
+    "framework": "jasmine",
+    "libs": [],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "lib/mock-ajax.js"
+                },
+                {
+                    "disabled": false,
+                    "path": "lib/StoreHelper.js"
+                },
+                {
+                    "disabled": false,
+                    "path": "lib/BeforeLoad.js"
+                }
+            ],
+            "coverageFilters": [],
+            "directory": "unit",
+            "name": "Unit Tests",
+            "launch": false,
+            "page": "",
+            "globals": "XMLHttpRequest\nspec"
+        },
+        {
+            "libs": [
+                {
+                    "disabled": false,
+                    "path": "lib/end-to-end/Contact.js"
+                }
+            ],
+            "coverageFilters": [],
+            "directory": "end-to-end-classic",
+            "name": "End-to-End Tests - Classic",
+            "page": "http://localhost:9000/#",
+            "launch": false
+        },
+        {
+            "libs": [],
+            "coverageFilters": [],
+            "profile": "modern",
+            "launch": true,
+            "directory": "end-to-end-modern",
+            "name": "End-to-End Tests - Modern",
+            "page": "http://localhost:9000/?toolkit=modern#"
+        }
+    ],
+    "globals": "ProSvc\nContactApp"
+}

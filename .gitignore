@@ -1,0 +1,26 @@
+# os
+.DS_Store
+
+# ide
+.idea
+
+# sencha
+build/
+bootstrap.*
+classic.json
+modern.json
+.tern-port
+
+# app
+config.json
+config.development.json
+config.testing.json
+logs
+public
+upload
+
+# cordova
+ContactApp/cordova/www
+ContactApp/cordova/plugins
+ContactApp/cordova/platforms
+ContactApp/cordova/node_modules

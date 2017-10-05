@@ -1,0 +1,15 @@
+{
+    "server": {
+        "database": {
+            "client": "pg"
+        },
+        "port": 80,
+        "protocol": "https",
+        "webRoot": "/public",
+        "logsFolder": "./logs",
+        "profileFolder": "/profile",
+        "profileSubFolder": "",
+        "tempFolder": "/temp",
+        "fileServerPath": "./upload"
+    }
+}

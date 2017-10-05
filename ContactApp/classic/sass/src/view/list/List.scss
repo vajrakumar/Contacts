@@ -1,0 +1,48 @@
+.contact-thumb-list {
+  height: 50px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-weight: 400;
+
+  .contact-list-avatar-container {
+    width: 50px;
+    height: 50px;
+    float: left;
+    vertical-align: top;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    z-index: 1;
+    border: 1px solid #e4e4e4;
+    text-align: center;
+    margin-right: 10px;
+
+    i {
+      left: 9px;
+      top: 4px;
+      position: absolute;
+    }
+
+    img {
+      left: 0px;
+      top: 0px;
+      position: absolute;
+    }
+  }
+
+  .contact-list-full-name {
+    white-space: nowrap;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 500;
+    font-size: 15px;
+  }
+
+  .contact-list-organisation {
+    color: #808080;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+}

@@ -1,0 +1,143 @@
+.contact-view-font {
+  font-family: Helvetica Neue, Helvetica, Arial;
+  font-weight: 400;
+}
+
+.contact-avatar {
+  height: 300px;
+  text-align: center;
+  vertical-align: top;
+  overflow: hidden;
+
+  @media screen and (orientation: landscape) {
+    width: 130px;
+    height: 130px;
+    float: left;
+
+    img {
+      height: 130px;
+      width: 130px;
+    }
+
+    i {
+      font-size: 9em;
+    }
+  }
+
+  @media screen and (orientation: portrait) {
+    width: 100%;
+    float: none;
+
+    img {
+      width: 100%;
+    }
+
+    i {
+      font-size: 20em;
+    }
+  }
+}
+
+
+.contact-avatar-form {
+  height: 300px;
+  text-align: center;
+  vertical-align: top;
+  overflow: hidden;
+  position: relative;
+
+  @media screen and (orientation: landscape) {
+    width: 130px;
+    height: 130px;
+    left: 40%;
+
+    img {
+      height: 130px;
+      width: 130px;
+    }
+
+    i {
+      font-size: 9em;
+    }
+  }
+
+  @media screen and (orientation: portrait) {
+    width: 100%;
+    float: none;
+
+    img {
+      width: 100%;
+    }
+
+    i {
+      font-size: 20em;
+    }
+  }
+}
+
+.contact-details-container {
+  display: inline-block;
+
+  @media screen and (orientation: portrait) {
+    width: 100%;
+  }
+
+  @media screen and (orientation: landscape) {
+    width: 75%;
+    padding: 2%;
+  }
+
+  .contact-full-name {
+    width: 100%;
+    padding: 5px 1%;
+    font-size: 20px;
+    word-wrap: break-word;
+  }
+
+  .contact-organisation {
+    color: #808080;
+    font-size: 13px;
+    padding: 5px 1%;
+  }
+
+  td {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .contact-details-group {
+    border-bottom: 1px solid #dddddd;
+  }
+
+  .contact-detail-icon {
+    color: #666666;
+    font-size: 1.5em;
+  }
+
+  .contact-detail-label {
+    font-size: 15px;
+    color: #808080;
+  }
+
+  .contact-detail-value-container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  button {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border-width: 0px;
+    background: #e1e1e1;
+    font-size: 1.2em;
+  }
+}
+
+.contact-input-cls {
+  border: 1px solid #ffffff;
+}
+
+.contact-error-cls {
+  border: 1px solid #f00000;
+}

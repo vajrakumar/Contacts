@@ -1,0 +1,24 @@
+.#{$prefix}upload-drop-zone {
+
+  display: -webkit-box !important;
+  @include box-align(center);
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background: #fff;
+  opacity: .7;
+  border: dashed 3px #d4d4d4;
+
+  .#{$prefix}message {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: OpenSans-Bold;
+    padding-top: 5px;
+  }
+}

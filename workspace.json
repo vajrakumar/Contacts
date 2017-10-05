@@ -1,0 +1,19 @@
+{
+    "packages": {
+        "dir": "${workspace.dir}/packages/local,${workspace.dir}/packages",
+        "extract": "${workspace.dir}/packages/remote"
+    },
+    "frameworks": {},
+    "apps": [
+        {
+            "initializing": false,
+            "$emitter": {
+                "domain": null,
+                "_events": {},
+                "_eventsCount": 0
+            },
+            "initialized": true,
+            "path": "ContactApp"
+        }
+    ]
+}

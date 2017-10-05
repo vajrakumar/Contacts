@@ -1,0 +1,22 @@
+{
+    "server": {
+        "database": {
+            "client": "pg",
+            "connection": {
+                "host": "127.0.0.1",
+                "user": "YOUR_USER",
+                "password": "YOUR_PASSWORD",
+                "database": "contacts_app_testing",
+                "charset": "utf8"
+            }
+        },
+        "port": 9000,
+        "protocol": "http",
+        "webRoot": "/ContactApp",
+        "logsFolder": "./logs",
+        "profileFolder": "/profile",
+        "profileSubFolder": "",
+        "tempFolder": "/temp",
+        "fileServerPath": "./upload"
+    }
+}

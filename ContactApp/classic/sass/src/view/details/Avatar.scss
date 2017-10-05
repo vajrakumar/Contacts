@@ -1,0 +1,55 @@
+.contact-avatar-container {
+  width: 136px;
+  height: 136px;
+  text-align: center;
+  position: relative;
+  border: 1px solid #808080;
+  overflow: hidden;
+  z-index: 1;
+
+  > i {
+    font-size: 10em;
+  }
+
+  img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+  }
+
+  img:hover .contact-avatar-delete-icon {
+    display: inherit;
+  }
+}
+
+.contact-avatar-edit-icon {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid #808080;
+  padding: 10px;
+  z-index: 1;
+  left: 35%;
+  top: 35%;
+  color: #808080;
+  display: none;
+}
+
+.contact-avatar-container:hover .contact-avatar-edit-icon {
+  display: inherit;
+}
+
+.contact-avatar-delete-icon {
+  width: 20px;
+  height: 19px;
+  font-size: 1em;
+  color: #ffffff;
+  z-index: 2;
+  position: absolute;
+  border: 1px solid #d0d0d0;
+  border-radius: 50%;
+  background-color: #d0d0d0;
+  right: 3%;
+  top: 2%;
+}
